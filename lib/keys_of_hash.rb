@@ -8,10 +8,10 @@ class Hash
         if country == arguments
           puts animal
           listOfAnimals << animal
+          puts listOfAnimals
         end
       end
 
     end
-  puts listOfAnimals
   end
 end
