@@ -8,6 +8,7 @@ class Hash
 
       self.each do |animal, country|
         binding.pry
+        
         if country == arguments
           #puts animal
           listOfAnimals << animal
@@ -18,3 +19,6 @@ class Hash
     puts listOfAnimals
   end
 end
+
+
+#checek panama first then if true return the animal array
