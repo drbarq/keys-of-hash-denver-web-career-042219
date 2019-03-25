@@ -3,7 +3,7 @@ class Hash
     # code goes here
     Hash.each do |animals, country|
       if country == arguments
-      puts Hash.Key
+      puts animals
     end
     end
   end
