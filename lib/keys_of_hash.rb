@@ -10,8 +10,8 @@ class Hash
           listOfAnimals << animals
         end
       end
-      puts listOfAnimals
-    end
 
+    end
+  puts listOfAnimals
   end
 end
