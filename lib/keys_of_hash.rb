@@ -12,7 +12,7 @@ class Hash
           #puts animal
           listOfAnimals << animal
 
-      
+
       end
     end
     puts listOfAnimals
