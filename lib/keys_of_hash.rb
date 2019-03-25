@@ -6,7 +6,7 @@ class Hash
     # code goes here
     listOfAnimals = []
 
-      self.each do |animal, country|
+      self.find do |animal, country|
         binding.pry
         if country == arguments
           #puts animal
