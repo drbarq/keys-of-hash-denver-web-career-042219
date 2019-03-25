@@ -5,8 +5,9 @@ class Hash
   def keys_of(*arguments)
     # code goes here
     listOfAnimals = []
-    binding.pry
+
       self.each do |animal, country|
+        binding.pry
         if country == arguments
           #puts animal
           listOfAnimals << animal
