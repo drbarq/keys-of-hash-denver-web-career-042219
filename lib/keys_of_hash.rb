@@ -7,7 +7,7 @@ class Hash
     listOfAnimals = []
 
       self.each do |animal, country|
-        binding.pry
+    #    binding.pry
         if arguments.include?(country)
     #    if country == arguments
           #puts animal
