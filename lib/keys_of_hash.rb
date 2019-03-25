@@ -12,4 +12,5 @@ class Hash
       end
     end
   end
+  return listOfAnimals
 end
