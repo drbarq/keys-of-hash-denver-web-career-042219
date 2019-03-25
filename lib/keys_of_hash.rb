@@ -11,7 +11,7 @@ class Hash
         end
       end
     end
+    puts listOfAnimals
+    return listOfAnimals
   end
-  puts listOfAnimals
-  return listOfAnimals
 end
