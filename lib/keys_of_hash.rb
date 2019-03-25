@@ -6,7 +6,6 @@ class Hash
     arguments.each do |arg|
       each do |animal, country|
         if country == arguments
-          puts animal
           listOfAnimals << animal
           puts listOfAnimals
         end
