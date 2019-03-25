@@ -1,7 +1,9 @@
 class Hash
   def keys_of(*arguments)
     # code goes here
-    Hash.each do |animals, country|
+listOfKeys = Array.new
+
+    arguments.each do |animals, country|
       if country == arguments
       puts animals
     end
