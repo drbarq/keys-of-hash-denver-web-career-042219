@@ -8,8 +8,8 @@ class Hash
 
       self.each do |animal, country|
         binding.pry
-        
-        if country == arguments
+        if arguments.include?(country)
+    #    if country == arguments
           #puts animal
           listOfAnimals << animal
 
