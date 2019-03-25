@@ -10,7 +10,6 @@ class Hash
           puts listOfAnimals
         end
       end
-
     end
   end
 end
