@@ -1,10 +1,10 @@
 class Hash
   def keys_of(arguments)
     # code goes here
-    Hash.find do |animals, country|
+    animals.find do |animals, country|
       if country == arguments
-      puts Hash.Keys
-    end 
+      puts animals.Keys
+    end
     end
   end
 end
