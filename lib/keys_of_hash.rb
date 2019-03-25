@@ -6,7 +6,7 @@ class Hash
     # code goes here
     listOfAnimals = []
 
-      each do |animal, country|
+      self.each do |animal, country|
     #    binding.pry
         if arguments.include?(country)
     #    if country == arguments
@@ -22,4 +22,4 @@ class Hash
 end
 
 
-#checek panama first then if true return the animal array
+#check if arguments includes the country 
