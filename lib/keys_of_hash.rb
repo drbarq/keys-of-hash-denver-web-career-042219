@@ -8,18 +8,15 @@ class Hash
 
       self.each do |animal, country|
     #    binding.pry
-        if arguments.include?(country)
-    #    if country == arguments
+      #  if arguments.include?(country)
+        if country == arguments
           #puts animal
           listOfAnimals << animal
-
-
       end
     end
     return listOfAnimals
-
   end
 end
 
 
-#check if arguments includes the country value in the each, shovel out the animal and return the array. 
+#check if arguments includes the country value in the each, shovel out the animal and return the array.
