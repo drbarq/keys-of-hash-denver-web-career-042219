@@ -6,10 +6,9 @@ class Hash
     # code goes here
     listOfAnimals = []
     binding.pry
-    arguments.each do |arg|
-      arg.each do |animal, country|
+      self.each do |animal, country|
         if country == arguments
-          puts animal
+          #puts animal
           listOfAnimals << animal
 
         end
