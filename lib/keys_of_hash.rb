@@ -3,7 +3,7 @@ class Hash
     # code goes here
     animals.find do |animals, country|
       if country == arguments
-      puts animals.Keys
+      puts animals.Key
     end
     end
   end
