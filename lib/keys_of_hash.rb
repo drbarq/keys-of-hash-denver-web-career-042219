@@ -1,11 +1,13 @@
 class Hash
   def keys_of(*arguments)
     # code goes here
-listOfKeys = Array.new
+listOfAnimals = Array.new
 
-    arguments.each do |animals, country|
-      if country == arguments
-      puts animals
+    arguments.each do |arg|
+      each do |animal, country|
+        if country == arguments
+          puts animals
+          listOfAnimals << animals
     end
     end
 
