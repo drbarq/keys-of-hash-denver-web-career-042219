@@ -1,7 +1,7 @@
 class Hash
   def keys_of(*arguments)
     # code goes here
-    listOfAnimals = Array.new
+    listOfAnimals = []
 
     arguments.each do |arg|
       each do |animal, country|
