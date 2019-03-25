@@ -22,4 +22,4 @@ class Hash
 end
 
 
-#check if arguments includes the country 
+#check if arguments includes the country value in the each, shovel out the animal and return the array. 
