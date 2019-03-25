@@ -7,7 +7,7 @@ class Hash
       each do |animal, country|
         if country == arguments
           puts animals
-          listOfAnimals << animals
+          listOfAnimals << animal
         end
       end
 
