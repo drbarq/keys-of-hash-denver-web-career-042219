@@ -3,6 +3,7 @@ class Hash
     # code goes here
     if arguments == Hash.values
       puts Hash.Keys
+    end 
 
   end
 end
@@ -15,4 +16,4 @@ Hash.each do |animals, country|
   puts animals
 end
 end
-=end 
+=end
